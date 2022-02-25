@@ -49,6 +49,7 @@ defaultne vrednosti
 /* Header list component */
 header {
 	background-color: rgba(0, 0, 0, 0.7);
+	z-index: 999;
 }
 .header-ul {
 	height: 4rem;
@@ -87,6 +88,7 @@ header {
 	font-size: 3rem;
 	margin-right: 1rem;
 	color: wheat;
+	z-index: 999;
 }
 .ham-menu {
 	display: none;
@@ -102,6 +104,11 @@ header {
 	background-color: rgba(0, 0, 0, 0.7);
 	backdrop-filter: blur(3px);
 	-webkit-backdrop-filter: blur(3px);
+	width: 100vw;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 990;
 }
 .ham-active > a {
 	margin-top: 1rem;
@@ -247,7 +254,7 @@ header {
 .containerSkill,
 .mobile-skill-container {
 	width: 25rem;
-	height: fit-content;
+	height: 30rem;
 	margin: auto;
 	margin-bottom: 1rem;
 	padding: 2rem;
@@ -288,13 +295,13 @@ header {
 @media only screen and (min-width: 766px) {
 	.containerSkill {
 		width: 45%;
-		height: 25rem;
+		height: 30remt;
 	}
 }
 @media only screen and (min-width: 1366px) {
 	.containerSkill {
 		width: 23%;
-		height: 25rem;
+		height: 30rem;
 	}
 }
 @media only screen and (max-width: 766px) {

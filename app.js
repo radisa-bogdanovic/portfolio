@@ -49,19 +49,35 @@ const skillArray= [
     },
 ]
 
+window.addEventListener('scroll', function(){
+    if(window.pageYOffset>350){
+        document.getElementById('header').style.position='fixed';
+        document.getElementById('header').style.width= '100%'
+    }else{
+        document.getElementById('header').style.position='relative';
+    }
+    
+})
 function letsSaveSomeSpace(){
     hamburgerDisplay.classList.remove('ham-active');
     hamburgerDisplay.classList.add('ham-menu')
     buttonHamburger.textContent= '\u{02635}'
+    window.onscroll ='';
+     document.body.style.overflow = "scroll";
 }
 buttonHamburger.onclick= () => {
+    
  if(hamburgerDisplay.classList.contains('ham-active')&&window.innerWidth<766){
     letsSaveSomeSpace()
+    
  }
  else if(!hamburgerDisplay.classList.contains('ham-active')){
     hamburgerDisplay.classList.remove('ham-menu')
     hamburgerDisplay.classList.add('ham-active');
     buttonHamburger.textContent= 'X' 
+    document.body.style.overflow = "hidden";
+    window.onscroll = () => { window.scroll(0, 0); };
+
  }
 }
 hamburgerLinks.forEach(function(link){
