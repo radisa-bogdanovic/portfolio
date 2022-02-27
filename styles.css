@@ -301,7 +301,7 @@ header {
 @media only screen and (min-width: 1366px) {
 	.containerSkill {
 		width: 23%;
-		height: 30rem;
+		height: 35rem;
 	}
 }
 @media only screen and (max-width: 766px) {
@@ -314,6 +314,7 @@ header {
 	}
 }
 /* form-section */
+
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
 form {
@@ -353,23 +354,10 @@ textarea {
 	resize: vertical;
 }
 
-[type="submit"] {
-	font-family: "Montserrat", Arial, Helvetica, sans-serif;
-	width: 100%;
-	background: wheat;
-	border-radius: 5px;
-	border: 0;
-	cursor: pointer;
-	color: black;
-	font-size: 24px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	transition: all 0.3s;
-	margin-top: -4px;
-	font-weight: 700;
-}
-[type="submit"]:hover {
-	background: wheat;
+#form-submit {
+	text-align: center;
+	width: 15rem;
+	margin: auto;
 }
 /* footer */
 .logo-social {

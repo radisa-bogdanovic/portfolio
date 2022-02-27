@@ -153,6 +153,22 @@ if(!window.innerWidth<766){
    
     
     // form 
+    document.getElementById(`form-submit`).addEventListener('click', function(){
+            let nameForm = document.forms["contact"]["name"].value;
+            let emailForm = document.forms["contact"]["email"].value;
+            let comment = document.forms["contact"]["comment"].value;
+            
+           if (!nameForm =='' && !emailForm=='' && !comment=='' ) {
+            this.type= 'submit';
+            document.forms["contact"]["name"].value='';
+            document.forms["contact"]["email"].value='';
+            document.forms["contact"]["comment"].value='';
+            }
+            else{
+                this.type='button';
+             alert("Kontakt forma mora biti popunjena da bi ste je poslali");
+            }
+    }) 
     //footer
     yearContainer.textContent=`${dateF.getDay()}. ${dateF.getMonth()+1}. ${dateF.getFullYear()}. godine ` 
 
