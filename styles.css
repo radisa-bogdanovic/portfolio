@@ -138,8 +138,9 @@ header {
 	background-size: cover;
 	background-repeat: no-repeat;
 	padding: 3rem;
-
 	height: 25rem;
+	width: 100%;
+	z-index: -1;
 }
 .hero-text {
 	text-align: center;
@@ -161,7 +162,6 @@ header {
 /* about section :)  */
 
 .about {
-	background-color: wheat;
 	height: fit-content;
 	padding: 2rem;
 	width: 90%;
@@ -265,7 +265,7 @@ header {
 	height: 30rem;
 	margin: auto;
 	margin-bottom: 1rem;
-	padding: 2rem;
+	padding: 1.5rem;
 	background-color: wheat;
 	border-radius: 1rem;
 	color: black;
@@ -279,10 +279,10 @@ header {
 	background-repeat: no-repeat;
 }
 .containerSkill > * {
-	width: 80%;
+	width: 90%;
 	margin: auto;
 	font-family: cursive, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-	font-size: 1rem;
+	font-size: 1.2rem;
 }
 
 .containerSkill:last-child {
@@ -291,7 +291,7 @@ header {
 .modal-closed {
 	display: none;
 }
-.modal-active {
+/* .modal-active {
 	width: 50%;
 	height: 50%;
 	margin: auto;
@@ -312,7 +312,7 @@ header {
 	left: 10px;
 	background-color: transparent;
 	color: wheat;
-}
+} */
 @media only screen and (min-width: 766px) {
 	.button-right,
 	.button-left,
@@ -325,14 +325,14 @@ header {
 		flex-wrap: wrap;
 	}
 	.containerSkill {
-		width: 45%;
-		height: 30remt;
+		width: 49%;
+		height: 32remt;
 	}
 }
 
 @media only screen and (min-width: 1366px) {
 	.containerSkill {
-		width: 23%;
+		width: 24%;
 		height: 35rem;
 	}
 }

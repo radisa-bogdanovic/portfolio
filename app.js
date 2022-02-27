@@ -168,6 +168,6 @@ if(!window.innerWidth<766){
     
     }) 
     //footer
-    yearContainer.textContent=` ${dateF.getFullYear()}. godine ` 
+    yearContainer.textContent=` ${dateF.getFullYear()}. godina ` 
 
 // ${dateF.getDay()}. ${dateF.getMonth()+1}.
