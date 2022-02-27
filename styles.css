@@ -58,7 +58,7 @@ header {
 	z-index: 999;
 }
 .header-ul {
-	height: 4rem;
+	height: 3.5rem;
 	display: flex;
 	flex-direction: row;
 	justify-content: right;
