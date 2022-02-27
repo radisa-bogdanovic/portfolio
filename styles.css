@@ -6,7 +6,13 @@
 body {
 	background: rgba(30, 30, 40, 0.5);
 }
-
+#skills,
+#contact {
+	padding: 4rem;
+}
+#about {
+	padding: 3.5rem;
+}
 /* 
 defaultne vrednosti
 */
@@ -211,6 +217,9 @@ header {
 		margin-top: 0;
 		margin-left: 1rem;
 	}
+	#about {
+		padding: 2.5rem;
+	}
 }
 /* skills */
 .skills {
@@ -291,13 +300,12 @@ header {
 		flex-direction: row;
 		flex-wrap: wrap;
 	}
-}
-@media only screen and (min-width: 766px) {
 	.containerSkill {
 		width: 45%;
 		height: 30remt;
 	}
 }
+
 @media only screen and (min-width: 1366px) {
 	.containerSkill {
 		width: 23%;
@@ -356,7 +364,7 @@ textarea {
 
 #form-submit {
 	text-align: center;
-	width: 15rem;
+	width: 100%;
 	margin: auto;
 }
 /* footer */
