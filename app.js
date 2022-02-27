@@ -18,7 +18,7 @@ const skillArray= [
         aboutSkills: `Prosao sam kurs iz 'Web razvoja za apsolutne pocetnike' i upoznao se sa osnovama Htmla, css i samog web razvoja  `,
         addDesrip: `Uz Html/Css upoznao sam se i sa Trello-m, Git-om, WordPress-om i jos nekolicinom potrebnih alata za svakog programera' :)
         <br>
-        </a><a href="https://drive.google.com/file/d/1RjKORj-iBxEzogN_zNEc4TUm6us8bTw4/view?usp=sharing"  target='_blank'><button class="button1 skill-a" >Sertifikat </button></a>`
+        </a><a href="https://i.imgur.com/57wz6l9.jpg"  target='_blank'><button class="button1 skill-a" >Sertifikat </button></a>`
         ,
          imageSrc: './img/webdev.jpg'},
 {
@@ -29,7 +29,7 @@ const skillArray= [
     addDesrip: `Spoznavsi lepotu javeScript-a sve vise sam je aktivno primenjivao u svojim projektima, ne mogu da tvrdim da sam neki ekspert u radu sa tim jezikom 
     ali zasigurno mislim da umem da se snadjem ako negde 'zagusti' :)
     <br>
-    </a><a href="https://drive.google.com/file/d/1yY7jXzZjno7u8ZBZR3qa7HHh0G4km0vF/view?usp=sharing"  target='_blank'><button class="button1 skill-a" >Sertifikat </button></a>`
+    </a><a href="https://i.imgur.com/sNkqaHL.png"  target='_blank'><button class="button1 skill-a" >Sertifikat </button></a>`
     , imageSrc: './img/javascript.png'
 },
 {
@@ -38,7 +38,7 @@ const skillArray= [
     addDesrip: `Ne mogu sebe nazvati Java programerom izucivsi samo neke osnove ovog velikog programskog jezika, ali
     samo upoznavanje sa oop mi je pomoglo u ucenju oop js kao i samog Angulara 
     <br>
-    <a href="https://drive.google.com/file/d/1CRh4CI8a3mfZjdTyBsCEKSUPMYa4LGOw/view?usp=sharing"  target='_blank'><button class="button1 skill-a" >Sertifikat </button></a>`, 
+    <a href="https://i.imgur.com/waOFMSD.png"  target='_blank'><button class="button1 skill-a" >Sertifikat </button></a>`, 
     imageSrc: './img/java.png'
 },
 {
@@ -168,5 +168,6 @@ if(!window.innerWidth<766){
     
     }) 
     //footer
-    yearContainer.textContent=`${dateF.getDay()}. ${dateF.getMonth()+1}. ${dateF.getFullYear()}. godine ` 
+    yearContainer.textContent=` ${dateF.getFullYear()}. godine ` 
 
+// ${dateF.getDay()}. ${dateF.getMonth()+1}.
